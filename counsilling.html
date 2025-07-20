@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Profile Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .container {
+      width: 1000px;
+      margin: auto;
+      border: 1px solid black;
+      padding: 20px;
+    }
+
+    h2, h3, p {
+      text-align: center;
+      margin: 2px 0;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    h3 {
+      text-decoration: underline;
+      margin: 15px 0;
+    }
+
+    .section-title {
+      font-weight: bold;
+      text-decoration: underline;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .form-table, .form-table td, .form-table th {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 5px;
+      font-size: 14px;
+    }
+
+    .form-table {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .wide {
+      width: 100%;
+      padding: 5px;
+      box-sizing: border-box;
+    }
+
+    .input-cell {
+      padding: 3px 5px;
+    }
+
+    .row-flex {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .row-flex > div {
+      flex: 1;
+      margin-right: 10px;
+    }
+
+    .row-flex > div:last-child {
+      margin-right: 0;
+    }
+
+    textarea {
+      width: 100%;
+      height: 60px;
+      resize: vertical;
+    }
+
+    .checkbox-row {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      margin: 10px 0;
+    }
+
+    .small-text {
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    textarea {
+      width: 100%;
+      padding: 4px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>GAYATRI VIDYA PARISHAD COLLEGE OF ENGINEERING FOR WOMEN(A)</h2>
+  <p>Madhurawada :: Visakhapatnam – 530 048</p>
+  <p class="small-text">
+    (Approved by AICTE, New Delhi and Permanently Affiliated to Andhra University, Visakhapatnam)<br>
+    Accredited by NAAC with “A” from 2022 to 2027<br>
+    CSE, ECE and IT Courses Accredited by NBA (2019-2022) and Re-accredited by NBA (2022-2025)<br>
+    EEE Course Accredited by NBA (2023-2026)
+  </p>
+  <p class="small-text">
+    Ph : 0891-2739144 &nbsp; Fax : 0891-2526639 &nbsp; e-mail: gvcpew@gmail.com &nbsp; Website: www.gvpcew.ac.in
+  </p>
+
+  <h3>STUDENT PROFILE</h3>
+
+  <table class="form-table">
+    <tr>
+      <td> H T NO.</td>
+      <td> NAME OF THE STUDENT (AS per SSC)</td >
+      <td >BRANCH</td>
+    </tr>
+     <tr>
+
+<td> <input type ="HT" class="wide"></td>
+<td> <input type ="name" class="wide"></td>
+<td> <input type ="branch" class="wide"></td>
+
+  </table>
+
+  <table class="form-table">
+    <tr>
+      <td>Date of Birth (as per SSC)</td>
+      <td>AADHAR No. (self)</td>
+      <td>Mobile No. (Self)</td>
+      <td>e-mail ID</td>
+    </tr>
+    <tr>
+      <td><input type="date" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+      <td><input type="email" class="wide"></td>
+    </tr>
+  </table>
+
+  <div class="section-title">Educational Details</div>
+  <table class="form-table">
+    <tr>
+      <td>% of Marks</td>
+      <td>GRADE</td>
+      <td>School of Study & Place</td>
+    </tr>
+    <tr>
+      <td><input type="text" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+    </tr>
+  </table>
+
+  <table class="form-table">
+    <tr>
+      <td>% of Marks</td>
+      <td>GRADE</td>
+      <td>College of Study & Place</td>
+    </tr>
+    <tr>
+      <td><input type="text" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+    </tr>
+  </table>
+
+  <div class="section-title">Qualifying Examination Details</div>
+  <table class="form-table">
+    <tr>
+      <th colspan="3">EAMCET</th>
+      <th colspan="3">JEE</th>
+      <th colspan="3">ECET (Diploma)</th>
+    </tr>
+    <tr>
+      <td>H T NO</td>
+      <td>YEAR</td>
+      <td>RANK</td>
+      <td>H T NO</td>
+      <td>YEAR</td>
+      <td>RANK</td>
+      <td>H T NO</td>
+      <td>YEAR</td>
+      <td>RANK</td>
+    </tr>
+    <tr>
+      <td><input type="text" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+    </tr>
+  </table>
+
+  <div class="section-title">Admission Details</div>
+  <table class="form-table">
+    <tr>
+      <td>Category of Admission</td>
+      <td>Nationality & Religion</td>
+      <td>Caste & Category</td>
+      <td>State to which belongs to<br><small>Example - AP</small></td>
+    </tr>
+    <tr>
+      <td>EAMCET &nbsp;&nbsp; SPOT &nbsp;&nbsp; ECET<br>Cat A &nbsp;&nbsp; Cat B</td>
+      <td><input type="text" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+      <td><input type="text" class="wide"></td>
+    </tr>
+  </table>
+
+  <div class="checkbox-row">
+    <label>Availing AP Govt. Fee Reimbursement Scheme:</label>
+    <label><input type="checkbox"> YES</label>
+    <label><input type="checkbox"> NO</label>
+    <label><input type="checkbox"> EWS</label>
+  </div>
+
+  <div class="section-title">Details of Parents</div>
+  <table class="form-table">
+    <tr>
+      <th style="width: 50%">Father’s Name</th>
+      <th style="width: 50%">Mother’s Name</th>
+    </tr>
+    <tr>
+      <td class="input-cell">
+        Qualification:<br><input type="text" class="wide"><br>
+        Occupation:<br><input type="text" class="wide"><br>
+        Annual Income:<br><input type="text" class="wide"><br>
+        Land Line (Off/Res):<br><input type="text" class="wide"><br>
+        Mobile No.:<br><input type="text" class="wide"><br>
+        e-mail ID:<br><input type="email" class="wide">
+      </td>
+      <td class="input-cell">
+        Qualification:<br><input type="text" class="wide"><br>
+        Occupation:<br><input type="text" class="wide"><br>
+        Annual Income:<br><input type="text" class="wide"><br>
+        Land Line (Off/Res):<br><input type="text" class="wide"><br>
+        Mobile No.:<br><input type="text" class="wide"><br>
+        e-mail ID:<br><input type="email" class="wide">
+      </td>
+    </tr>
+  </table>
+
+  <table class="form-table">
+    <tr>
+      <td>PERMANENT ADDRESS<br><textarea></textarea></td>
+      <td>CONTACT ADDRESS<br><textarea></textarea></td>
+    </tr>
+  </table>
+
+  <div class="section-title">DETAILS OF HOSTEL (if any) & LOCAL GUARDIAN</div>
+  <table class="form-table">
+    <tr>
+      <td style="width: 50%">
+        College / Govt / Outside Hostel (Name):<br><input type="text" class="wide"><br>
+        Address:<br><textarea></textarea><br>
+        Phone No.:<br><input type="text" class="wide"><br>
+        Mobile No.:<br><input type="text" class="wide">
+      </td>
+      <td style="width: 50%">
+        Name of Local Guardian:<br><input type="text" class="wide"><br>
+        Address:<br><textarea></textarea><br>
+        Phone No.:<br><input type="text" class="wide"><br>
+        Mobile No.:<br><input type="text" class="wide">
+      </td>
+    </tr>
+  </table>
+</div>
+
+<script>
+  // Placeholder JavaScript – add validation or interactivity here if needed
+</script>
+
+</body>
+</html>
